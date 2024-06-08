@@ -16,6 +16,8 @@ Social web site
 7. requirements file: pip freeze requirements.txt
 7. staging area: git add .
 8. commit: git commit -m "first commit"
+9. set main branch: git branch -M main
+10. add remote branch 
 8. Create an app: django-admin startapp accounts / 
                     python manage.py startapp accounts
 9. adding the app in settings, put in the first place
