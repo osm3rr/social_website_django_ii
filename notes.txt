@@ -1,0 +1,24 @@
+Social web site
+0. Topics:
+- Creating a login view
+- Using the django authentification framework
+- Creating tempaltes for django login, logout, password change,
+ and password reset views
+- Creating user registration views
+- Extending the user model with a custom profile model
+- Configuring the project for media file uploads
+1. virtual env.: python -m venv .venv
+2. activate virtual env.
+3. create a .gitignore file
+4. inicialize the repository: git init
+5. install django: python -m pip install django
+6. Create base project: django-admin startproject django_project .
+7. requirements file: pip freeze requirements.txt
+7. staging area: git add .
+8. commit: git commit -m "first commit"
+8. Create an app: django-admin startapp accounts / 
+                    python manage.py startapp accounts
+9. adding the app in settings, put in the first place
+10. sync the database: python manage.py migrate 
+
+
